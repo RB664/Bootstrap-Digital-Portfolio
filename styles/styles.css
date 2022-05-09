@@ -1,1 +1,18 @@
 
+/* section 1 */
+#section1 h2{
+    font-family: 'Oleo Script Swash Caps', cursive;
+    font-size: 60px;
+    text-align: center;
+} 
+
+#section1 h3{
+    font-size: xx-large;
+    text-align: center;
+}
+
+/* section 1 */
+
+#section2 #s2{
+    border: black;
+}

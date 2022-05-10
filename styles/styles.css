@@ -16,3 +16,36 @@
 #section2 #s2{
     border: black;
 }
+
+#about{
+    scroll-margin: 55px;
+}
+
+#work-&-education{
+    
+}
+
+#me{
+    height: 650px;
+}
+
+
+@media only  screen and (max-width: 1464px) {
+    #section2{
+    padding-top: 450px;
+    
+
+}
+}
+@media only screen  and (max-width: 750px) {
+    #me{
+   display: none;
+
+}
+}
+
+@media only screen and (max-width: 853px) {
+    #section7{
+        height: 950px;
+    }
+}

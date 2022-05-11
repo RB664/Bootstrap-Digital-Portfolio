@@ -1,41 +1,93 @@
 
+/* head */
+
+/* head */
 /* section 1 */
 #section1 h2{
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 60px;
     text-align: center;
+    padding-right: 500px;
 } 
 
 #section1 h3{
     font-size: xx-large;
     text-align: center;
+    padding-right: 500px;
 }
 
 /* section 1 */
 
-#section2 #s2{
-    border: black;
+/* #section2 */
+#section2{
+    background-color: black;
+    color: white;
 }
 
+
+/* #section2 */
+
+/* #section4 */
+#section4{
+    background-color: black;
+    color: white;
+}
+/* #section4 */
+
+/* #section6 */
+#section6{
+    background-color: black;
+    color: white;
+}
+/* #section6 */
+
+/* section7 */
+#section7{
+    height: 500px;
+}
+#progressbarcontainer{
+    background-color: ;
+}
+/* section7 */
+
+/* ID's */
 #about{
     scroll-margin: 55px;
 }
 
-#work-&-education{
-    
+#workeducation{
+    scroll-margin: 55px;    
+}
+
+#skills{
+    scroll-margin: 55px;
+}
+
+#project{
+    scroll-margin: 55px;
+}
+
+#testimonial{
+    scroll-margin: 55px;
+}
+
+#contact{
+    scroll-margin: 50px;
 }
 
 #me{
     height: 650px;
 }
 
+/* ID's */
 
-@media only  screen and (max-width: 1464px) {
+/* media queries */
+/* @media only  screen and (max-width: 1464px) {
     #section2{
     padding-top: 450px;
     
 
-}
+} */
 }
 @media only screen  and (max-width: 750px) {
     #me{
@@ -49,3 +101,68 @@
         height: 950px;
     }
 }
+/* media queries */
+
+/* 320px */
+@media only screen and (max-width:320px) {
+    #me{
+        padding-left: 0%;
+    }
+    #h2{
+        padding-right: 200px;
+    }
+    #h3{
+        padding-right: 100px;
+    }
+    #section7{
+        height: 680px;
+    }
+    /* carousel */
+    #img1{
+        width: 240px;
+        height: 240px;
+    }
+    #img2{
+        width: 240px;
+        height: 240px;
+    }
+    #img3{
+        width: 240px;
+        height: 240px;
+    }
+    #img4{
+        width: 240px;
+        height: 240px;
+    }
+    #img5{
+        width: 240px;
+        height: 240px;
+    }
+    /* carousel */
+
+    /* personal */
+    #personal{
+        font-size: xx-small;
+    }
+    /* personal */
+
+    /* form */
+    #forminput3{
+        width: 150%;
+    }
+    #forminput4{
+        width: 150%;
+    }
+    .form-control{
+        width: 150%;
+    }
+    /* form */
+
+    /* navbar */
+    #navbar{
+        width: 320px;
+        position: fixed;
+    }
+    /* navbar */
+
+/* 320px */

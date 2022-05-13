@@ -8,13 +8,17 @@
     font-family: 'Oleo Script Swash Caps', cursive;
     font-size: 55px;
     text-align: center;
-    padding-right: 500px;
+    padding-right: 300px;
+    padding-top: 180px;
 } 
 
 #section1 h3{
     font-size: xx-large;
     text-align: center;
-    padding-right: 500px;
+    padding-right: 300px;
+}
+#me{
+    padding-left: 0%;
 }
 
 /* section 1 */
@@ -33,7 +37,28 @@
     background-color: black;
     color: white;
 }
+
+
 /* #section4 */
+/* section5 */
+#imgdiv{
+    margin-left: 100px;
+}
+#picdiv{
+    margin-left: 90px;
+}
+#calulator{
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+#rainbow{
+    width: 500px;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+/* section5 */
 
 /* #section6 */
 #section6{
@@ -121,7 +146,7 @@
     }
     
     #section7{
-        height: 780px;
+        height: 850px;
     }
     /* carousel */
     #img1{
@@ -169,6 +194,14 @@
         width: 320px;
         position: fixed;
     }
+    #calulator{
+        width: 200px;
+        height: 100px;
+    }
+    #rainbow{
+        width: 200px;
+        height: 100px;
+    }
 }
     /* navbar */
 
@@ -183,7 +216,7 @@
 /* SIZES IMAGES */
 .projects-container img {
     max-height: 400px;
-    max-width: 100%;
+    max-width: 500px;
     object-fit: cover;
     flex-grow: 1;
     transition: .8s;
@@ -220,6 +253,24 @@
     opacity: 1;
 }
 .btn-center  a:hover{
-    background-color: aqua;
-    color: yellowgreen;
+    background-color: black;
+    color: white;
 }
+
+/* carousel */
+#img1{
+    object-fit: cover;
+}
+#img2{
+    object-fit: cover;
+}
+#img3{
+    object-fit: cover;
+}
+#img4{
+    object-fit: cover;
+}
+#img5{
+    object-fit: cover;
+}
+/* carousel */
